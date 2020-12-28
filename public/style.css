@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root{
+    --light-color: #e6e9ff;
+    --dark-color-a: #667aff;
+	--dark-color-b: #7386ff;
+	--success-color: #5cb85c;
+	--error-color: #d9534f;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Roboto sans-serif;
+    background:var(--light-color);
+    font-size:16px;
+    margin:20px;
+}
+.btn{
+    cursor:pointer;
+    padding:5px 15px;
+    border:0;
+    background-color:var(--light-color);
+    font-size:17px;
+}
+.join-container{
+    margin:80px auto;
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.join-header{
+    text-align: center;
+    padding:20px;
+    background:var(--dark-color-a);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.join-main{
+    padding:30px 40px;
+    background-color:var(--dark-color-b);
+}
+.join-main .form-controle{
+    margin-bottom:20px;
+}
+.join-main label{
+    display:block;
+    margin-bottom:5px;
+}
+.join-main .username{
+    font-size:16px;
+    padding:5px;
+    height:40px;
+    width:100%;
+}
+.join-main select{
+    font-size:16px;
+    padding:5px;
+    height:40px;
+    width:100%;
+}
+.join-main .btn{
+    margin-top:20px;
+    width:100%;
+    border-radius:5px;
+}
+.btn:hover{
+    background-color:violet;
+}
