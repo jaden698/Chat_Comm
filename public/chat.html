@@ -8,6 +8,26 @@
     <title>Chat Comm</title>
 </head>
 <body>
-    
+    <div class="chat-container">
+        <div class="chat-header">
+            <h1><i class="fas fa-smile"></i>ChatComm</h1>
+            <a href="index.html" class="btn">Leave room</a>
+        </div>
+        <div class="chat-main">
+            <div class="chat-navbar">
+                <h3><i class="fas fa-comments"></i>Room name:</h3>
+                <h2 id="room-name"></h2>
+                <h3><i class="fas fa-users"></i>Users</h3>
+                <ul id="users"></ul>
+            </div>
+            <div class="chat-messages"></div>
+        </div>
+        <div class="chat-form-container">
+            <form id="chat-form">
+                <input type="text" placeholder="Enter message" id="msg" required autocomplete="off">
+                <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
